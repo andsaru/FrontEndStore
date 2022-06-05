@@ -60,3 +60,37 @@ h2 {
 h3 {
     font-size: 2.4rem;
 }
+
+/** Header **/
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header__logo {
+    margin: 3rem 0;
+}
+
+/** Navbar **/
+
+.navbar {
+    background-color: var(--primarioOscuro);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem; /* Es como añadirle un margin right en navbarlink*/
+}
+
+.navbar__link {
+    font-family: var(--fuentePrincipal);
+    color: var(--blanco);
+    font-size: 3rem;
+}
+
+.navbar__link--active, 
+.navbar__link:hover{
+    color: var(--secundario);
+}
+
+

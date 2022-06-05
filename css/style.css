@@ -72,6 +72,21 @@ h3 {
     margin: 3rem 0;
 }
 
+/** Footer **/
+
+.footer {
+    background-color: var(--primarioOscuro);
+    padding: 1rem 0; /* 1 arriba/abajo 0 izq/der */
+    margin-top: 2rem; /* separación con el elementro de arriba */
+}
+
+.footer__text {
+    font-family: var(--fuentePrincipal);
+    text-align: center;
+    font-family: 2.2rem;
+}
+
+
 /** Navbar **/
 
 .navbar {
@@ -79,13 +94,18 @@ h3 {
     padding: 1rem;
     display: flex;
     justify-content: center;
-    gap: 2rem; /* Es como añadirle un margin right en navbarlink*/
+    /*gap: 2rem; /*NUEVO Es como añadirle un margin right en navbarlink*/
 }
 
 .navbar__link {
     font-family: var(--fuentePrincipal);
     color: var(--blanco);
     font-size: 3rem;
+    margin-right: 2rem;
+}
+
+.navbar__link:last-of-type {
+    margin-right: 0;
 }
 
 .navbar__link--active, 
